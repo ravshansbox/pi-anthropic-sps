@@ -1,6 +1,6 @@
 # pi-anthropic-sps
 
-Extension that sanitizes specific system-prompt lines from outgoing Anthropic payloads.
+Anthropic system prompt sanitizer for pi.
 
 ## Install
 
@@ -10,4 +10,4 @@ pi install git:github.com/ravshansbox/pi-anthropic-sps
 
 ## Behavior
 
-Intercepts outgoing provider payloads and removes two known-problematic lines from Anthropic `system` text blocks for Claude models.
+Intercepts outgoing provider payloads and removes known-problematic lines from Anthropic `system` text blocks for Claude models.
