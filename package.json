@@ -1,0 +1,14 @@
+{
+  "name": "@ravshansbox/pi-anthropic-sps",
+  "version": "1.0.0",
+  "description": "Anthropic system prompt sanitizer extension for pi",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
