@@ -5,13 +5,7 @@ Extension that sanitizes specific system-prompt lines from outgoing Anthropic pa
 ## Install
 
 ```bash
-pi install @ravshansbox/pi-anthropic-sps
-```
-
-Or for project-local development, copy/symlink to `.pi/extensions/`. Or run pi with:
-
-```bash
-pi -e ./src/index.ts
+pi install git:github.com/ravshansbox/pi-anthropic-sps
 ```
 
 ## Behavior
