@@ -2,6 +2,20 @@
   "name": "@ravshansbox/pi-anthropic-sps",
   "version": "1.0.0",
   "description": "Anthropic system prompt sanitizer extension for pi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravshansbox/pi-anthropic-sps.git"
+  },
+  "keywords": [
+    "pi",
+    "extension"
+  ],
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
   "type": "module",
   "pi": {
     "extensions": [
@@ -13,5 +27,8 @@
   },
   "devDependencies": {
     "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
   }
 }
