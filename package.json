@@ -3,27 +3,10 @@
   "version": "1.0.0",
   "description": "Anthropic system prompt sanitizer extension for pi",
   "license": "MIT",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ravshansbox/pi-anthropic-sps.git"
-  },
-  "files": [
-    "index.ts",
-    "README.md",
-    "LICENSE"
-  ],
-  "type": "module",
-  "pi": {
-    "extensions": [
-      "./index.ts"
-    ]
-  },
-  "peerDependencies": {
-    "@earendil-works/pi-coding-agent": "*"
-  },
-  "devDependencies": {
-    "@types/node": "^26.1.2",
-    "typescript": "^6.0.3"
   },
   "homepage": "https://github.com/ravshansbox/pi-anthropic-sps#readme",
   "bugs": {
@@ -37,6 +20,23 @@
     "pi-extension",
     "system-prompt"
   ],
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^6.0.3"
+  },
   "scripts": {
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck"
