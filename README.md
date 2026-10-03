@@ -4,8 +4,6 @@ Anthropic system prompt sanitiser extension for pi.
 
 ## Install
 
-Install directly from the command line:
-
 ```bash
 pi install git:github.com/ravshansbox/pi-anthropic-sps
 ```
@@ -20,5 +18,5 @@ For example, if a Claude request contains the known problematic documentation li
 
 ```bash
 npm install
-npm run typecheck
+npm run check
 ```
