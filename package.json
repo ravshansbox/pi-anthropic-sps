@@ -1,7 +1,7 @@
 {
   "name": "@ravshansbox/pi-anthropic-sps",
   "version": "2.0.0",
-  "description": "Anthropic system prompt sanitizer extension for pi",
+  "description": "Anthropic system prompt sanitiser extension for pi",
   "license": "MIT",
   "type": "module",
   "repository": {
