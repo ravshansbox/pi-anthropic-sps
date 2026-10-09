@@ -5,7 +5,7 @@ Anthropic system prompt sanitiser extension for pi.
 ## Install
 
 ```bash
-pi install git:github.com/ravshansbox/pi-anthropic-sps
+pi install npm:@ravshansbox/pi-anthropic-sps
 ```
 
 ## Usage
